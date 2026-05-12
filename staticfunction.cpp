@@ -45,5 +45,15 @@ void Mahasiswa::printAll()
 
 int main()
 {
+	Mahasiswa mhs1("Raja");
+	Mahasiswa mhs2("raihan");
 
+	Mahasiswa::setNim(9);
+	Mahasiswa mhs3("ilham");
+	Mahasiswa mhs4("nune");
+
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
 }
