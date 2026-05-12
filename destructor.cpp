@@ -7,6 +7,11 @@ public:
 	mahasiswa();
 };
 
+mahasiswa::mahasiswa()
+{
+	cout << "Constructor: " << endl;
+};
+
 
 
 int main()
