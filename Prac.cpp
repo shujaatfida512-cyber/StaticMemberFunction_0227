@@ -41,5 +41,15 @@ public:
 
 int main()
 {
+        Vehicle v1;
+        Vehicle v2(101);
+        Vehicle v3("Toyota");
+        Vehicle v4(202, "Honda");
 
+        v1.display();
+        v2.display();
+        v3.display();
+        v4.display();
+
+        return 0;
 }
