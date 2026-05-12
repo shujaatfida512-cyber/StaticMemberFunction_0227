@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="constructor.cpp" />
+    <ClCompile Include="destructor.cpp" />
+    <ClCompile Include="P2.cpp" />
+    <ClCompile Include="staticfunction.cpp" />
     <ClCompile Include="StaticMemberFunction_0227.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

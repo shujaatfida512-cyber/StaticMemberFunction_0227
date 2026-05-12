@@ -11,6 +11,10 @@ public:
 	void setID();
 	void printAll();
 
+	static int getNim()
+	{
+		return nim;
+	}
 	Mahasiswa(string pnama) :name(pnama)
 	{
 		setID();
@@ -42,6 +46,10 @@ int main()
 	mhs3.printAll();
 	mhs4.printAll();
 
+	cout << "Akses dari luar object = " << Mahasiswa::getNim() << endl;
+	system("PAUSE");
+
 	return 0;
 
 }
+
