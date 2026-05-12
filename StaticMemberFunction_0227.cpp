@@ -5,19 +5,20 @@ class buku
 {
     string judul;
 public:
-    void setJudul(string judul)
+    string setget(string judul)
     {
         this->judul = judul;
-    }
-
-    string getJudul()
-    {
         return this->judul;
     }
+
 };
+
+
 
 int main()
 {
+    buku bukunya;
+    cout << bukunya.setget("Matematika");
 
 
 
