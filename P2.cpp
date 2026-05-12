@@ -23,6 +23,13 @@ void Mahasiswa::setID()
 	id = ++nim;
 };
 
+void Mahasiswa printAll()
+{
+	cout << "ID: " << id << endl;
+	cout << "NAma: " << nama << endl;
+	cout << endl;
+};
+
 int main() 
 {
 	
